@@ -1,0 +1,507 @@
+<!doctype html>
+
+<html lang="en">  
+<head>  
+
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>  
+  <title>Ekenedilichukwu— Portfolio</title>  
+  <meta name="description" content="Personal portfolio website of Kenneth Onah. Skills, projects, experience, and contact details." />     <!-- Tailwind CSS CDN -->  <script src="https://cdn.tailwindcss.com"></script>  <!-- Google Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">  <style>  body { font-family: 'Inter', sans-serif; }  
+.hero-bg { background: linear-gradient(135deg, #0f172a, #020617); }
+
+</style></head>
+
+
+
+  
+
+
+
+<body class="bg-slate-950 text-slate-100">
+
+<body class="bg-slate-950 text-slate-100">
+  
+  
+<!-- PRELOADER -->
+<div id="preloader"
+  class="fixed inset-0 z-[9999] flex items-center justify-center bg-slate-950 transition-opacity duration-500">
+
+  <div class="flex flex-col items-center gap-4">
+    <div class="w-14 h-14 border-4 border-slate-700 border-t-indigo-500 rounded-full animate-spin"></div>
+    <p class="text-sm text-slate-400">Loading...</p>
+  </div>
+
+</div>
+
+
+  
+  
+  
+  
+
+
+<nav class="relative max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+  <!-- Glow background (behind nav) -->
+  <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur opacity-30 -z-10 rounded-2xl"></div>
+
+  <!-- Logo -->
+  <div class="relative z-10 bg-slate-900 border border-white/20 rounded-2xl shadow-2xl px-6 py-3">
+    <img 
+      src="image.png"
+      alt="KKTech Logo"
+      class="max-h-14 md:max-h-20 w-auto"
+    />
+  </div>
+
+  <!-- Desktop Menu -->
+  <div class="relative z-10 hidden md:flex gap-6 text-sm font-medium">
+    <a href="#about" class="hover:text-indigo-400 transition">About</a>
+    <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+    <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+    <a href="#experience" class="hover:text-indigo-400 transition">Experience</a>
+    <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+  </div>
+  
+  
+  <div id="mobileMenu" class="hidden md:hidden bg-slate-900 border-t border-white/10 px-6 py-4 space-y-3">
+  <a href="#about" class="block">About</a>
+  <a href="#skills" class="block">Skills</a>
+  <a href="#projects" class="block">Projects</a>
+  <a href="#experience" class="block">Experience</a>
+  <a href="#contact" class="block">Contact</a>
+</div>
+  
+  
+  
+
+  <!-- Mobile Button -->
+  <button id="menuBtn" class="relative z-10 md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+</nav>
+
+
+
+
+
+<!-- ================= HERO ================= -->
+<section class="hero-bg pt-24 pb-14">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
+
+
+    <!-- NAME -->
+    <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">
+      Hi, I'm <span class="text-indigo-400">Kenneth Ekenedilichukwu</span>
+    </h2>
+
+    <!-- TITLE -->
+    <p class="mt-3 text-lg text-slate-300 max-w-2xl">
+      A business-oriented tech professional passionate about building digital products, brands, and scalable solutions.
+    </p>
+    
+    <br>
+    <br>
+    
+<!-- PROFILE SECTION -->
+<div class="flex flex-col items-center text-center py-10">
+
+  <!-- Profile Image -->
+  <div class="relative mb-5">
+    <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 blur opacity-70"></div>
+    <img 
+      src="profile.jpg"
+      alt="Kenneth Ekenedilichukwu"
+      class="relative w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-4 border-slate-900 shadow-xl"
+    />
+  </div>
+
+  <!-- Name -->
+  <h3 class="text-xl md:text-2xl font-extrabold">Kenneth Ekenedilichukwu</h3>
+
+  <!-- Username / Handle -->
+  <p class="text-sm text-indigo-400 mt-1">@KKtechglobal</p>
+
+  <!-- Title -->
+  <p class="mt-1 text-sm text-slate-400">Business-Oriented Tech Professional</p>
+
+  <!-- Skill Tags -->
+  <div class="mt-4 flex flex-wrap justify-center gap-2 max-w-lg">
+    <span class="px-3 py-1 text-xs rounded-full bg-indigo-500/20 text-indigo-300">Software Developer</span>
+    <span class="px-3 py-1 text-xs rounded-full bg-indigo-500/20 text-indigo-300">Website Design</span>
+    <span class="px-3 py-1 text-xs rounded-full bg-indigo-500/20 text-indigo-300">Ads & Promotion</span>
+    <span class="px-3 py-1 text-xs rounded-full bg-indigo-500/20 text-indigo-300">Video Editor</span>
+    <span class="px-3 py-1 text-xs rounded-full bg-indigo-500/20 text-indigo-300">Business</span>
+  </div>
+</div>
+    
+
+
+<!-- SOCIAL LINKS -->
+<div class="mt-6 flex items-center justify-center gap-5">
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/kenneth.ekenedirichukwu.1" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-indigo-500 transition">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.325v21.351C0 23.403.597 24 1.325 24H12.82v-9.294H9.692V11.01h3.128V8.309c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.696h-3.12V24h6.116C23.403 24 24 23.403 24 22.676V1.325C24 .597 23.403 0 22.675 0z"/>
+    </svg>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/kktechglobal?igsh=MWUyeXN2NmF5c29ucg==" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-pink-500 transition">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.403a4.92 4.92 0 011.675 1.09 4.92 4.92 0 011.09 1.675c.163.46.347 1.26.403 2.43.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.43a4.92 4.92 0 01-1.09 1.675 4.92 4.92 0 01-1.675 1.09c-.46.163-1.26.347-2.43.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.403a4.92 4.92 0 01-1.675-1.09 4.92 4.92 0 01-1.09-1.675c-.163-.46-.347-1.26-.403-2.43C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.43a4.92 4.92 0 011.09-1.675A4.92 4.92 0 015.4 2.636c.46-.163 1.26-.347 2.43-.403C8.416 2.175 8.796 2.163 12 2.163zm0 3.675a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/>
+    </svg>
+  </a>
+
+  <!-- Twitter (X) -->
+  <a href="https://twitter.com/@kktechglobal" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-sky-500 transition">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.4.36a9.1 9.1 0 01-2.88 1.1 4.52 4.52 0 00-7.72 4.12A12.94 12.94 0 013 2.16 4.52 4.52 0 005.8 9.72a4.52 4.52 0 01-2.05-.56v.06a4.52 4.52 0 003.63 4.43 4.5 4.5 0 01-2.04.08 4.52 4.52 0 004.22 3.14A9.05 9.05 0 012 19.54a12.8 12.8 0 006.92 2.03c8.3 0 12.84-6.88 12.84-12.84 0-.2 0-.39-.02-.58A9.18 9.18 0 0023 3z"/>
+    </svg>
+  </a>
+
+  <!-- YouTube -->
+  <a href="https://www.youtube.com/@kktechglobal" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-red-500 transition">
+    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.5 6.2s-.2-1.7-.8-2.4c-.8-.8-1.7-.8-2.1-.9C17.5 2.5 12 2.5 12 2.5s-5.5 0-8.6.4c-.4.1-1.3.1-2.1.9-.6.7-.8 2.4-.8 2.4S0 8.1 0 10v2c0 1.9.5 3.8.5 3.8s.2 1.7.8 2.4c.8.8 1.8.8 2.3.9 1.7.2 7.4.4 8.4.4s5.5 0 8.6-.4c.4-.1 1.3-.1 2.1-.9.6-.7.8-2.4.8-2.4s.5-1.9.5-3.8v-2c0-1.9-.5-3.8-.5-3.8z"/>
+      <path d="M9.75 15.5l6-3.5-6-3.5v7z"/>
+    </svg>
+  </a>
+
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@kktechglobal" target="_blank"
+     class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-black transition">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12.525.02h3.093a6.07 6.07 0 001.657 3.354 6.07 6.07 0 003.35 1.656v3.093a9.123 9.123 0 01-4.716-1.262v7.53a6.263 6.263 0 11-6.263-6.262c.342 0 .675.03 1.002.086v3.2a3.175 3.175 0 00-1.002-.16 3.175 3.175 0 103.175 3.176V.02z"/>
+    </svg>
+  </a>
+
+</div>
+    
+    
+    
+    
+
+    <!-- CTA BUTTONS -->
+    <div class="mt-8 flex flex-wrap gap-4 justify-center">
+      <a href="#projects" class="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-lg font-semibold">
+        View Projects
+      </a>
+      <a href="#contact" class="px-6 py-3 border border-white/20 rounded-lg">
+        Hire Me
+      </a>
+    </div>
+
+    <!-- LOGO (BOTTOM) -->
+    <div class="relative group w-full max-w-md mt-14">
+
+    
+
+    </div>
+
+  </div>
+</section>
+
+  
+
+
+    
+      
+
+
+
+
+<!--================= ABOUT ================= --><section id="about" class="py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6">About Me</h3>
+    <p class="text-slate-300 leading-relaxed">
+      I am a driven and business‑minded individual with a strong interest in technology, digital innovation, and entrepreneurship. I enjoy turning ideas into real‑world solutions, whether through software, online platforms, or strategic business execution. My focus is on growth, value creation, and long‑term impact.
+    </p>
+    <p class="text-slate-300 leading-relaxed mt-4">
+      Over time, I have developed skills across technology, branding, and problem‑solving, enabling me to work independently or collaborate effectively within teams.
+    </p>
+  </div>
+  
+  
+  
+  
+<!-- COMPANIES -->
+<section id="companies" class="py-16 bg-slate-950/50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-10">Few Companies I’ve Worked With</h3>
+    
+    <!-- Company Logos / Names -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center justify-items-center">
+      
+      <!-- Example Company 1 -->
+      <div class="flex items-center justify-center p-4 bg-slate-900 rounded-lg shadow hover:scale-105 transition">
+       
+      <img src="assets/images/company1.png" alt="Digital bridge institution" class="h-12 object-contain">
+      </div>
+      
+      <!-- Example Company 2 -->
+      <div class="flex items-center justify-center p-4 bg-slate-900 rounded-lg shadow hover:scale-105 transition">
+
+        <img src="assets/images/company2.png" alt="Chibest kitchen" class="h-12 object-contain">
+      </div>
+      
+      <!-- Example Company 3 -->
+      <div class="flex items-center justify-center p-4 bg-slate-900 rounded-lg shadow hover:scale-105 transition">
+       
+        <img src="assets/images/company3.png" alt="kings logistics" class="h-12 object-contain">
+      </div>
+      
+      <!-- Example Company 4 -->
+      <div class="flex items-center justify-center p-4 bg-slate-900 rounded-lg shadow hover:scale-105 transition">
+       
+        <img src="assets/images/company4.png" alt="EKENEDILICHUKWU STORE" class="h-12 object-contain">
+      </div>
+      
+
+      </div>
+      
+    </div>
+  </div>
+</section>
+  </div>
+</section>
+
+
+
+
+<!--================= SKILLS ================= --><section id="skills" class="py-20 bg-slate-900/60">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-10">Skills</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="p-6 rounded-xl border border-white/10">
+        <h4 class="font-semibold text-lg mb-2">Technical Skills</h4>
+        <ul class="text-slate-300 space-y-1 text-sm">
+          <li>• HTML, CSS, JavaScript</li>
+          <li>• Website Development</li>
+          <li>• Basic Backend & APIs</li>
+          <li>• UI/UX Principles</li>
+        </ul>
+      </div>
+      <div class="p-6 rounded-xl border border-white/10">
+        <h4 class="font-semibold text-lg mb-2">Business Skills</h4>
+        <ul class="text-slate-300 space-y-1 text-sm">
+          <li>• Business Strategy</li>
+          <li>• Branding & Marketing/   promotion</li>
+          <li>• Client Communication</li>
+          <li>• Project Planning</li>
+        </ul>
+      </div>
+      <div class="p-6 rounded-xl border border-white/10">
+        <h4 class="font-semibold text-lg mb-2">Soft Skills</h4>
+        <ul class="text-slate-300 space-y-1 text-sm">
+          <li>• Problem Solving</li>
+          <li>• Leadership</li>
+          <li>• Time Management</li>
+          <li>• Adaptability</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section><!-- 
+
+
+
+================= PROJECTS ================= --><section id="projects" class="py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-10">Projects</h3><!-- Websites -->
+<h4 class="text-xl font-semibold mb-4 text-indigo-400">Websites</h4>
+<div class="grid md:grid-cols-3 gap-6 mb-12">
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">Business Website</h5>
+    <p class="text-sm text-slate-300 mt-2">A professional website built to showcase services, attract clients, and generate leads.</p>
+   
+    <a href="https://chibestkitchen-enugu.netlify.app" target="_blank" class="inline-block mt-4 text-indigo-400 text-sm hover:underline">Visit Website →</a>
+
+ 
+  
+  
+  </div>
+
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">E‑commerce Website</h5>
+    <p class="text-sm text-slate-300 mt-2">Online store with product listings, cart system, and checkout experience.</p>
+      
+      
+    
+      
+      
+
+ 
+
+
+  </div>
+
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">Personal Portfolio</h5>
+    <p class="text-sm text-slate-300 mt-2">Personal brand website highlighting skills, experience, and completed projects.</p>
+    
+    <a href="https://yourwebsite3.com" target="_blank" class="inline-block mt-4 text-indigo-400 text-sm hover:underline">Visit Website →</a>
+    
+
+ 
+ 
+ 
+ 
+  </div>
+</div>
+
+<!-- Application Software -->
+<h4 class="text-xl font-semibold mb-4 text-indigo-400">Application Software</h4>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">Task Management App</h5>
+    <p class="text-sm text-slate-300 mt-2">A productivity application designed to help users organize tasks, set priorities, and track progress efficiently.</p>
+    <p class="text-xs text-slate-400 mt-2">Tech: HTML, CSS, JavaScript</p>
+  </div>
+
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">Inventory Management System</h5>
+    <p class="text-sm text-slate-300 mt-2">Software solution for managing products, stock levels, and sales records for small and medium businesses.</p>
+    <p class="text-xs text-slate-400 mt-2">Tech: JavaScript, APIs</p>
+  </div>
+
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">Customer Management App</h5>
+    <p class="text-sm text-slate-300 mt-2">Application built to store customer data, track interactions, and improve business-client relationships.</p>
+    <p class="text-xs text-slate-400 mt-2">Tech: Web-based Application</p>
+  </div>
+
+
+  <div class="p-6 rounded-xl border border-white/10 hover:border-indigo-400 transition">
+    <h5 class="font-semibold text-lg">Finance Tracking App</h5>
+    <p class="text-sm text-slate-300 mt-2">A simple financial application that helps users track income, expenses, and basic budgeting.</p>
+    <p class="text-xs text-slate-400 mt-2">Tech: JavaScript</p> </div>
+    
+  
+    <div>
+      
+      Software Application 
+
+  <p> <a href="https://app-link.com">Live Demo →</a>
+</p>
+<br>
+<p>
+<a href="https://app-link.com">Live Demo →</a></p>
+
+    </section>
+</div>
+</div>
+
+  </div>
+  
+  
+  
+</section><!-- ================= EXPERIENCE ================= --><section id="experience" class="py-20 bg-slate-900/60">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-8">Experience</h3>
+    <div class="space-y-6">
+      <div class="border-l-4 border-indigo-400 pl-6">
+        <h4 class="font-semibold">Tech & Business Projects</h4>
+        <p class="text-sm text-slate-400">2023 – Present</p>
+        <p class="text-slate-300 mt-2">Working on personal and client‑based projects involving website development, branding, and digital business solutions.</p>
+      </div>
+    </div>
+  </div>
+</section><!-- 
+
+
+
+
+================= CONTACT ================= --><section id="contact" class="py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <p class="text-slate-300 mb-6">Interested in working together or have a question? Send me a message.</p>
+    <p>Grow your business, reach more customers with websites, apps, and videos & ads. Send a message.</p>
+    <br>
+    
+    
+     <a 
+  href="https://wa.me/234815 741 3767?text=Hello%20Ekenedilichukwu the web dev,%20I%20saw%20your%20portfolio%20and%20I%20would%20like%20to%20work%20with%20you,%20i%20also%20want%20you%20to%20build%20a%20Website,%20App%20or brand%20video%20content%20and%20Promotions" 
+  target="_blank"
+  class="flex items-center justify-center gap-3 px-6 py-4 bg-green-500 hover:bg-green-600 rounded-lg font-semibold text-white transition"
+>
+  <!-- WhatsApp Icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20.52 3.48A11.79 11.79 0 0012.06 0C5.5 0 .2 5.3.2 11.86c0 2.1.55 4.15 1.6 5.95L0 24l6.35-1.66a11.8 11.8 0 005.7 1.45h.01c6.56 0 11.86-5.3 11.86-11.86a11.8 11.8 0 00-3.4-8.45z"/>
+  </svg>
+
+  Chat on WhatsApp
+</a> 
+    </form>
+    
+</div>
+    
+    
+
+<!-- ADDRESS / LOCATION -->
+<div class="mt-8 text-center text-slate-300">
+  <h4 class="font-semibold text-lg mb-2 text-indigo-400">Location</h4>
+  
+<div class="mt-4 flex justify-center items-center gap-4 text-slate-300">
+  <svg class="w-5 h-5 text-indigo-400" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
+  </svg>
+  <span>Enugu, Nigeria</span>
+  <p>
+    
+
+  <a href=https://goo.gl/maps/9KviDpa3RHwyNujM7" target="_blank" class="text-indigo-400 hover:underline">
+    View on Map
+  </a>
+</p>
+  
+  
+  
+    <p>Open for remote work worldwide</p>
+
+</div>
+
+</div>
+
+
+    
+
+</section><!-- 
+
+
+================= FOOTER ================= --><footer class="py-8 text-center text-sm text-slate-400 border-t border-white/10">
+  © <span id="year"></span>Tech global. All rights reserved.
+</footer><script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<script>
+  window.addEventListener("load", () => {
+    const preloader = document.getElementById("preloader");
+
+    // Force 3 seconds preload
+    setTimeout(() => {
+      preloader.classList.add("opacity-0");
+
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 500); // match fade duration
+
+    }, 3000); // 3 seconds
+  });
+</script>
+
+</body>
+</html>
